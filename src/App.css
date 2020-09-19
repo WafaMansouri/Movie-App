@@ -1,13 +1,67 @@
 .App {
   text-align: center;
+  background-color: rgba(17, 16, 16, 0.801);
+  display: flex;
+}
+.AddModal{
+  background-color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.scroller {
+  /* width: 200px;
+  height: 50px; */
+  padding-bottom: 50px;
+  overflow-y: scroll;
+  scrollbar-color:  rgb(139, 167, 157);
+  scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+  width: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  rgb(139, 167, 157);; 
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(77, 173, 140);; ; 
+}
+.search{
+  width: 200px;
+  height: 40px;
+  font-size: 1.3em;
+  margin-top: 20px;
+  background-color:rgb(223, 240, 234);
+}
+.logo-search
+{
+    background-image:url('/logo_search.png');
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: 30px;
+    padding-left:15px;
+}
+.AddModal input{
+  height: 40px;
+  font-size: 0.8em;
+  margin:20px;
+}
+.yellow{
+  color:rgb(250, 250, 2);
+}
+edia (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }

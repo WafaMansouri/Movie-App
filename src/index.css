@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+li,li a{
+  color: rgb(139, 167, 157);
+  font-size: 1.3em;
+  text-align: justify;
+}
+ul {
+  list-style-type: circle;
+  
+}
+button{
+  width: 250px;
+  height: 40px;
+  font-size: 1.3em;
+  margin: 25px;
+  background-color:rgb(223, 240, 234)
+}
+a{
+  text-decoration: none;
+}
+input::-webkit-outer-spin-button, /*To remove the arrow from the input element*/
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
